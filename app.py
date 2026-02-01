@@ -149,7 +149,7 @@ fig.add_trace(
                line=dict(color='#00BFFF', width=2), hovertemplate='<b>Agent Traffic</b><br>%{x|%Y-%m-%d}<br>%{y:.1f}%<extra></extra>'),
     row=2, col=1
 )
-fig.add_hline(y=10, line_dash="--", line_color="red", row=2, col=1)
+fig.add_hline(y=10, line_dash="dash", line_color="red", row=2, col=1)
 
 # Chart 4: Token GDP (Bar)
 fig.add_trace(
@@ -165,7 +165,7 @@ fig.add_trace(
                hovertemplate='<b>Visser Spread</b><br>%{x|%Y-%m-%d}<br>%{y:.2f}<extra></extra>'),
     row=3, col=1
 )
-fig.add_hline(y=1, line_dash="--", line_color="white", row=3, col=1)
+fig.add_hline(y=1, line_dash="dash", line_color="white", row=3, col=1)
 
 # Chart 6: Socket-to-Seat
 fig.add_trace(
@@ -174,7 +174,7 @@ fig.add_trace(
                hovertemplate='<b>Socket-to-Seat</b><br>%{x|%Y-%m-%d}<br>%{y:.2f}<extra></extra>'),
     row=3, col=2
 )
-fig.add_hline(y=1, line_dash="--", line_color="white", row=3, col=2)
+fig.add_hline(y=1, line_dash="dash", line_color="white", row=3, col=2)
 
 # Styling
 fig.update_layout(
