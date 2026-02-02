@@ -87,6 +87,46 @@ Edit the sidebar in `app.py` to adjust:
 
 For issues or questions, open a GitHub issue or check Streamlit documentation.
 
+
+## 📚 Indicator Glossary
+
+### PHYSICS Module: Energy Constraints
+
+**1. PJM Power Price** (The Ashburn Gap)
+- **What it measures:** Real-time electricity costs in the Pennsylvania-New Jersey-Maryland power grid, critical infrastructure serving major data center regions
+- - **Why it matters:** Shows whether electricity—a hard constraint on AI and compute capacity—is becoming scarcer (rising prices) or more abundant (falling prices)
+  - - **For investors:** This is the "ceiling on AI expansion." Rising power prices signal that energy infrastructure is a bottleneck; falling prices enable more computation
+   
+    - **2. Labor Arbitrage Ratio** (Deflation Factor)
+    - - **What it measures:** The ratio of human worker wages to the cost of AI token computation
+      - - **Why it matters:** Tracks whether AI compute is getting cheaper faster than human labor, driving automation decisions
+        - - **For investors:** High and rising = AI becomes cost-effective vs hiring; falling = human labor regains competitiveness
+         
+          - ### FACTORY Module: Velocity & Growth
+         
+          - **3. Agent Traffic** (The Headless Web)
+          - - **What it measures:** Percentage of web traffic driven by autonomous AI agents (bots) vs human users
+            - - **Why it matters:** Captures the shift from human-driven to machine-driven economic activity; higher percentages mean AI systems taking autonomous actions at scale
+              - - **For investors:** Leading indicator of AI adoption maturity; shows economy moving from "AI as tool" to "AI as economic actor"
+               
+                - **4. Token GDP** (Global Token Output)
+                - - **What it measures:** Synthetic measure of total computational tokens (AI work units) generated across all systems, measured in trillions
+                  - - **Why it matters:** Like GDP for the AI economy; grows as compute capacity and training data expand
+                    - - **For investors:** Growing Token GDP = expanding AI productive capacity and economic activity
+                     
+                      - ### TRADE Module: Asset Allocation
+                     
+                      - **5. Scarcity vs Abundance Spread** (Visser Framework)
+                      - - **What it measures:** Ratio of hard assets (scarce physical resources: power, chips, land) to soft assets (abundant digital resources: software, data, tokens)
+                        - - **Why it matters:** Drives fundamental investment allocation; above 1 = hard assets winning, below 1 = soft assets winning
+                          - - **For investors:** Choose between semiconductor/power companies (hard scarcity) or AI software/digital platforms (soft abundance)
+                           
+                            - **6. Socket-to-Seat Ratio** (Capital vs Operating Commitment)
+                            - - **What it measures:** Capital expenditure growth (sockets = new infrastructure) divided by operating expenditure decline (seats = labor/offices)
+                              - - **Why it matters:** Rising ratio = companies building expensive infrastructure (GPUs, data centers) while cutting operational costs (fewer employees)
+                                - - **For investors:** Reflects structural shift from employment to capital-intensive economy
+                                 
+                                  - ---
 ## 📄 License
 
 MIT License - Feel free to fork and modify!
