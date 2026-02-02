@@ -93,6 +93,8 @@ For issues or questions, open a GitHub issue or check Streamlit documentation.
 ### PHYSICS Module: Energy Constraints
 
 **1. PJM Power Price** (The Ashburn Gap)
+
+For detailed explanations and investment insights for each indicator, see [INDICATORS.md](INDICATORS.md).
 - **What it measures:** Real-time electricity costs in the Pennsylvania-New Jersey-Maryland power grid, critical infrastructure serving major data center regions
 - - **Why it matters:** Shows whether electricity—a hard constraint on AI and compute capacity—is becoming scarcer (rising prices) or more abundant (falling prices)
   - - **For investors:** This is the "ceiling on AI expansion." Rising power prices signal that energy infrastructure is a bottleneck; falling prices enable more computation
